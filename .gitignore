@@ -1,0 +1,25 @@
+# Go backend
+backend/server
+backend/*.exe
+backend/*.test
+*.out
+
+# Node / Electron
+frontend/node_modules/
+frontend/dist/
+frontend/out/
+frontend/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
